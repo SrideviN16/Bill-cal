@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>BILL</title>
+   </head>
+   <style>
+    p
+	{
+	border:solid 2px black;
+	height:27px;
+	width:155px;
+	}
+	.bill 
+	{
+	 height:auto;
+	  width:200px;
+	  margin:0 auto;
+	  background-color:#e91e63;
+	  border:solid 2px black;
+	  padding:20px;
+	  
+	}
+	button 
+	{
+	   margin: 20px 52px;
+      background-color:#9e9e9e;
+    border: dotted 2px black;
+    padding: 6px;
+}
+	
+	h2 
+	{
+	   color:#b2cc22;
+	  text-align:center;
+	  
+	   font-size:26px;
+	   
+	}
+   </style>
+  <body>
+  
+        <div class="bill">
+		       <h2>Bill calculator</h2>
+		    <form>
+			     <label for="amount">AMOUNT</label><br>
+				 <input type="text" id="amount"><br>
+				 <label for="tips">TIPS</label><br>
+				 <input type="text" id="tips"><br>
+				 <label>TIPS AMOUNT</label><br>
+				 <input id="tipvalue" disabled><br>
+				 <label for="result">Totel</label><br>
+				 <input type="text" id="result" disabled></input><br>
+				 <button>Calculate</button>
+				 
+			</form>
+		</div>
+		<script src="bill.js">
+		</script>
+  </body>
+</html>
